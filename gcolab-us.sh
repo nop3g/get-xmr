@@ -7,7 +7,7 @@ clear
 sudo apt install screen
 screen -R xmr
  
-wget https://github.com/xmrig/xmrig/releases/download/v6.16.4/xmrig-6.16.4-bionic-x64.tar.gz
-tar xvzf xmrig-6.16.4-bionic-x64.tar.gz
-cd xmrig-6.16.4
-./xmrig -o pool.minexmr.com:4444 -u 42q97h148z54mt5QWSJZUHWhZiic3PD8aiqr8w7BWvKBStAU6JT58gXNrMA9fwu2xfijurDrPEgY92qHdipJLT88Abw9rLb.nice
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.48/lolMiner_v1.48_Lin64.tar.gz
+tar xvzf lolMiner_v1.48_Lin64.tar.gz
+cd 1.48
+./lolMiner  --algo ETHASH --pool ethash.unmineable.com:3333 --user TRX:TBom3chnoWAncM7QHMa4mMGZMhCJtaNy3w:Colab --ethstratum ETHPROXY pause 
